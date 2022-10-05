@@ -92,7 +92,7 @@
 
         &::before {
             border-radius: 100%;
-            content: "";
+            content: '';
             user-select: none;
             transition-property: background-color, border-color;
             transition-duration: var(--transition-duration);

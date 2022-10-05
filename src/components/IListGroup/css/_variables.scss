@@ -43,7 +43,8 @@
     /// The border color of the list group component
     /// @name border-color
     ////
-    ----border-color: #{var(----border-top-color) var(----border-right-color) var(----border-bottom-color) var(----border-left-color)};
+    ----border-color: #{var(----border-top-color) var(----border-right-color)
+        var(----border-bottom-color) var(----border-left-color)};
     ////
     /// The border-color of the list group component
     /// @name border-color--active
@@ -79,7 +80,8 @@
     /// The border width of the list group component
     /// @name border-width
     ////
-    ----border-width: #{var(----border-top-width) var(----border-right-width) var(----border-bottom-width) var(----border-left-width)};
+    ----border-width: #{var(----border-top-width) var(----border-right-width)
+        var(----border-bottom-width) var(----border-left-width)};
     ////
     /// The border top left radius of the list group component
     /// @name border-top-left-radius
@@ -108,7 +110,8 @@
     /// The border radius of the list group component
     /// @name border-radius
     ////
-    ----border-radius: #{var(----border-top-left-radius) var(----border-top-right-radius) var(----border-bottom-right-radius) var(----border-bottom-left-radius)};
+    ----border-radius: #{var(----border-top-left-radius) var(----border-top-right-radius)
+        var(----border-bottom-right-radius) var(----border-bottom-left-radius)};
     ////
     /// The color of the list group component item
     /// @name color
@@ -161,5 +164,6 @@
     /// The padding of the list group component
     /// @name padding
     ////
-    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom) var(----padding-left)};
+    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom)
+        var(----padding-left)};
 }

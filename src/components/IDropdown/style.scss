@@ -15,7 +15,11 @@
 }
 
 .dropdown {
-    @include popup(('z-index': var(----z-index)));
+    @include popup(
+        (
+            'z-index': var(----z-index)
+        )
+    );
     @include popup-arrow();
     @include popup-arrow-size-variant();
 
@@ -32,7 +36,8 @@
     box-shadow: var(----box-shadow);
 
     > .dropdown-header {
-        border-width: var(----border-top-width) var(----border-right-width) 0 var(----border-left-width);
+        border-width: var(----border-top-width) var(----border-right-width) 0
+            var(----border-left-width);
         border-style: var(----border-style);
         border-color: var(----border-color);
         background-color: var(----header--background);
@@ -58,7 +63,8 @@
     }
 
     > .dropdown-footer {
-        border-width: 0 var(----border-right-width) var(----border-bottom-width) var(----border-left-width);
+        border-width: 0 var(----border-right-width) var(----border-bottom-width)
+            var(----border-left-width);
         border-style: var(----border-style);
         border-color: var(----border-color);
         background-color: var(----footer--background);
@@ -75,23 +81,35 @@
         border-bottom-right-radius: var(----border-bottom-right-radius);
     }
 
-    @include popup-arrow-color-variant-for-side('top', (
-        'background': var(----background),
-        'border-color': var(----border-bottom-color)
-    ));
+    @include popup-arrow-color-variant-for-side(
+        'top',
+        (
+            'background': var(----background),
+            'border-color': var(----border-bottom-color)
+        )
+    );
 
-    @include popup-arrow-color-variant-for-side('bottom', (
-        'background': var(----background),
-        'border-color': var(----border-top-color)
-    ));
+    @include popup-arrow-color-variant-for-side(
+        'bottom',
+        (
+            'background': var(----background),
+            'border-color': var(----border-top-color)
+        )
+    );
 
-    @include popup-arrow-color-variant-for-side('left', (
-        'background': var(----background),
-        'border-color': var(----border-right-color)
-    ));
+    @include popup-arrow-color-variant-for-side(
+        'left',
+        (
+            'background': var(----background),
+            'border-color': var(----border-right-color)
+        )
+    );
 
-    @include popup-arrow-color-variant-for-side('right', (
-        'background': var(----background),
-        'border-color': var(----border-left-color)
-    ));
+    @include popup-arrow-color-variant-for-side(
+        'right',
+        (
+            'background': var(----background),
+            'border-color': var(----border-left-color)
+        )
+    );
 }

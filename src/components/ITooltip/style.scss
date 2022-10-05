@@ -13,7 +13,11 @@
     }
 
     .tooltip {
-        @include popup(('z-index': var(----z-index)));
+        @include popup(
+            (
+                'z-index': var(----z-index)
+            )
+        );
         @include popup-arrow();
         @include popup-arrow-size-variant();
 
@@ -33,11 +37,16 @@
         padding: var(----padding);
         box-shadow: var(----box-shadow);
 
-        @include popup-arrow-color-variant(('background': var(----background), 'border-color': (
-            'top': var(----border-top-color),
-            'right': var(----border-right-color),
-            'bottom': var(----border-bottom-color),
-            'left': var(----border-left-color),
-        )));
+        @include popup-arrow-color-variant(
+            (
+                'background': var(----background),
+                'border-color': (
+                    'top': var(----border-top-color),
+                    'right': var(----border-right-color),
+                    'bottom': var(----border-bottom-color),
+                    'left': var(----border-left-color)
+                )
+            )
+        );
     }
 }

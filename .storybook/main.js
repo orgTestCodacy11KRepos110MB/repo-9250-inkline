@@ -1,12 +1,9 @@
 const { mergeConfig } = require('vite');
 const postcssConfig = require('../postcss.config');
-const { resolve } = require("path");
+const { resolve } = require('path');
 
 module.exports = {
-    stories: [
-        '../src/**/*.stories.mdx',
-        '../src/**/*.stories.@(js|jsx|ts|tsx)'
-    ],
+    stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
     addons: [
         {
             name: '@storybook/addon-postcss',
@@ -42,7 +39,7 @@ module.exports = {
                         replacement: `${resolve(__dirname, '..')}/src/`
                     }
                 ]
-            },
+            }
         });
-    },
+    }
 };

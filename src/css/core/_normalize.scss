@@ -161,8 +161,8 @@ a:not([href]):not([tabindex]) {
 a,
 area,
 button,
-[role="button"],
-input:not([type="range"]),
+[role='button'],
+input:not([type='range']),
 label,
 select,
 summary,
@@ -378,7 +378,6 @@ input[type='date'],
 input[type='time'],
 input[type='datetime-local'],
 input[type='month'] {
-
     // Remove the default appearance of temporal inputs to avoid a Mobile Safari
     // bug where setting a custom line-height prevents text from being vertically
     // centered within the input.

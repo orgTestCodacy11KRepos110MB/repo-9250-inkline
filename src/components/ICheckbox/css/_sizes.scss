@@ -13,22 +13,30 @@
         /// The border top left radius of the checkbox component indicator, for the sm size variant
         /// @name border-top-left-radius
         ////
-        ----border-top-left-radius: calc(#{var(--border-top-left-radius)} * #{size-multiplier('sm')});
+        ----border-top-left-radius: calc(
+            #{var(--border-top-left-radius)} * #{size-multiplier('sm')}
+        );
         ////
         /// The border top right radius of the checkbox component indicator, for the sm size variant
         /// @name border-top-right-radius
         ////
-        ----border-top-right-radius: calc(#{var(--border-top-right-radius)} * #{size-multiplier('sm')});
+        ----border-top-right-radius: calc(
+            #{var(--border-top-right-radius)} * #{size-multiplier('sm')}
+        );
         ////
         /// The border bottom right radius of the checkbox component indicator, for the sm size variant
         /// @name border-bottom-right-radius
         ////
-        ----border-bottom-right-radius: calc(#{var(--border-bottom-right-radius)} * #{size-multiplier('sm')});
+        ----border-bottom-right-radius: calc(
+            #{var(--border-bottom-right-radius)} * #{size-multiplier('sm')}
+        );
         ////
         /// The border bottom left radius of the checkbox component indicator, for the sm size variant
         /// @name border-bottom-left-radius
         ////
-        ----border-bottom-left-radius: calc(#{var(--border-bottom-left-radius)} * #{size-multiplier('sm')});
+        ----border-bottom-left-radius: calc(
+            #{var(--border-bottom-left-radius)} * #{size-multiplier('sm')}
+        );
         ////
         /// The size of the checkbox component indicator, for the sm size variant
         /// @name size
@@ -55,22 +63,30 @@
         /// The border top left radius of the checkbox component indicator, for the md size variant
         /// @name border-top-left-radius
         ////
-        ----border-top-left-radius: calc(#{var(--border-top-left-radius)} * #{size-multiplier('md')});
+        ----border-top-left-radius: calc(
+            #{var(--border-top-left-radius)} * #{size-multiplier('md')}
+        );
         ////
         /// The border top right radius of the checkbox component indicator, for the md size variant
         /// @name border-top-right-radius
         ////
-        ----border-top-right-radius: calc(#{var(--border-top-right-radius)} * #{size-multiplier('md')});
+        ----border-top-right-radius: calc(
+            #{var(--border-top-right-radius)} * #{size-multiplier('md')}
+        );
         ////
         /// The border bottom right radius of the checkbox component indicator, for the md size variant
         /// @name border-bottom-right-radius
         ////
-        ----border-bottom-right-radius: calc(#{var(--border-bottom-right-radius)} * #{size-multiplier('md')});
+        ----border-bottom-right-radius: calc(
+            #{var(--border-bottom-right-radius)} * #{size-multiplier('md')}
+        );
         ////
         /// The border bottom left radius of the checkbox component indicator, for the md size variant
         /// @name border-bottom-left-radius
         ////
-        ----border-bottom-left-radius: calc(#{var(--border-bottom-left-radius)} * #{size-multiplier('md')});
+        ----border-bottom-left-radius: calc(
+            #{var(--border-bottom-left-radius)} * #{size-multiplier('md')}
+        );
         ////
         /// The size of the checkbox component indicator, for the md size variant
         /// @name size
@@ -97,22 +113,30 @@
         /// The border top left radius of the checkbox component indicator, for the lg size variant
         /// @name border-top-left-radius
         ////
-        ----border-top-left-radius: calc(#{var(--border-top-left-radius)} * #{size-multiplier('lg')});
+        ----border-top-left-radius: calc(
+            #{var(--border-top-left-radius)} * #{size-multiplier('lg')}
+        );
         ////
         /// The border top right radius of the checkbox component indicator, for the lg size variant
         /// @name border-top-right-radius
         ////
-        ----border-top-right-radius: calc(#{var(--border-top-right-radius)} * #{size-multiplier('lg')});
+        ----border-top-right-radius: calc(
+            #{var(--border-top-right-radius)} * #{size-multiplier('lg')}
+        );
         ////
         /// The border bottom right radius of the checkbox component indicator, for the lg size variant
         /// @name border-bottom-right-radius
         ////
-        ----border-bottom-right-radius: calc(#{var(--border-bottom-right-radius)} * #{size-multiplier('lg')});
+        ----border-bottom-right-radius: calc(
+            #{var(--border-bottom-right-radius)} * #{size-multiplier('lg')}
+        );
         ////
         /// The border bottom left radius of the checkbox component indicator, for the lg size variant
         /// @name border-bottom-left-radius
         ////
-        ----border-bottom-left-radius: calc(#{var(--border-bottom-left-radius)} * #{size-multiplier('lg')});
+        ----border-bottom-left-radius: calc(
+            #{var(--border-bottom-left-radius)} * #{size-multiplier('lg')}
+        );
         ////
         /// The size of the checkbox component indicator, for the lg size variant
         /// @name size

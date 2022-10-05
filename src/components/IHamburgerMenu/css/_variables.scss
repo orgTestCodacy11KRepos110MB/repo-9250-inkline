@@ -43,7 +43,8 @@
     /// The padding of the card component
     /// @name padding
     ////
-    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom) var(----padding-left)};
+    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom)
+        var(----padding-left)};
     ////
     /// The border radius of the hamburger-menu component bars
     /// @name bar--border-radius

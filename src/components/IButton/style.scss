@@ -163,9 +163,9 @@ a.button.-disabled,
 }
 
 // Specificity overrides
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
     &.-block {
         width: 100%;
     }

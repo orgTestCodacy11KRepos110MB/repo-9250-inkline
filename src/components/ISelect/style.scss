@@ -10,7 +10,11 @@
     position: relative;
 
     .select {
-        @include popup(('z-index': var(----z-index)));
+        @include popup(
+            (
+                'z-index': var(----z-index)
+            )
+        );
         @include popup-arrow();
         @include popup-arrow-size-variant();
 
@@ -101,25 +105,37 @@
             border-bottom-right-radius: var(----border-bottom-right-radius);
         }
 
-        @include popup-arrow-color-variant-for-side('top', (
-            'background': var(----body--background),
-            'border-color': var(----body--border-bottom-color)
-        ));
+        @include popup-arrow-color-variant-for-side(
+            'top',
+            (
+                'background': var(----body--background),
+                'border-color': var(----body--border-bottom-color)
+            )
+        );
 
-        @include popup-arrow-color-variant-for-side('bottom', (
-            'background': var(----body--background),
-            'border-color': var(----border-top-color)
-        ));
+        @include popup-arrow-color-variant-for-side(
+            'bottom',
+            (
+                'background': var(----body--background),
+                'border-color': var(----border-top-color)
+            )
+        );
 
-        @include popup-arrow-color-variant-for-side('left', (
-            'background': var(----body--background),
-            'border-color': var(----border-right-color)
-        ));
+        @include popup-arrow-color-variant-for-side(
+            'left',
+            (
+                'background': var(----body--background),
+                'border-color': var(----border-right-color)
+            )
+        );
 
-        @include popup-arrow-color-variant-for-side('right', (
-            'background': var(----body--background),
-            'border-color': var(----border-left-color)
-        ));
+        @include popup-arrow-color-variant-for-side(
+            'right',
+            (
+                'background': var(----body--background),
+                'border-color': var(----border-left-color)
+            )
+        );
     }
 
     .input-wrapper {

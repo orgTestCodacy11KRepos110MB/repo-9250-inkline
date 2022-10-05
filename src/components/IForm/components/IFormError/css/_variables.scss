@@ -32,7 +32,8 @@
     /// The margin of the form error component
     /// @name margin
     ////
-    ----margin: #{var(----margin-top) var(----margin-right) var(----margin-bottom) var(----margin-left)};
+    ----margin: #{var(----margin-top) var(----margin-right) var(----margin-bottom)
+        var(----margin-left)};
     ////
     /// The color of the form error component
     /// @name color

@@ -55,7 +55,8 @@
     /// The border color of the dropdown component
     /// @name border-color
     ////
-    ----border-color: #{var(----border-top-color) var(----border-right-color) var(----border-bottom-color) var(----border-left-color)};
+    ----border-color: #{var(----border-top-color) var(----border-right-color)
+        var(----border-bottom-color) var(----border-left-color)};
     ////
     /// The border style of the dropdown component
     /// @name border-style
@@ -85,7 +86,8 @@
     /// The border width of the dropdown component
     /// @name border-width
     ////
-    ----border-width: #{var(----border-top-width) var(----border-right-width) var(----border-bottom-width) var(----border-left-width)};
+    ----border-width: #{var(----border-top-width) var(----border-right-width)
+        var(----border-bottom-width) var(----border-left-width)};
     ////
     /// The border top left radius of the dropdown component
     /// @name border-top-left-radius
@@ -114,7 +116,8 @@
     /// The border radius of the dropdown component
     /// @name border-radius
     ////
-    ----border-radius: #{var(----border-top-left-radius) var(----border-top-right-radius) var(----border-bottom-right-radius) var(----border-bottom-left-radius)};
+    ----border-radius: #{var(----border-top-left-radius) var(----border-top-right-radius)
+        var(----border-bottom-right-radius) var(----border-bottom-left-radius)};
     ////
     /// The box shadow horizontal offset of the dropdown component
     /// @name box-shadow-offset-x
@@ -144,7 +147,8 @@
     /// The box shadow of the dropdown component
     /// @name box-shadow
     ////
-    ----box-shadow: #{var(----box-shadow-offset-x) var(----box-shadow-offset-y) var(----box-shadow-blur-radius) var(----box-shadow-spread-radius) var(----box-shadow-color)};
+    ----box-shadow: #{var(----box-shadow-offset-x) var(----box-shadow-offset-y)
+        var(----box-shadow-blur-radius) var(----box-shadow-spread-radius) var(----box-shadow-color)};
     ////
     /// The color of the dropdown component item
     /// @name color
@@ -223,7 +227,8 @@
     /// The padding of the dropdown component items
     /// @name padding
     ////
-    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom) var(----padding-left)};
+    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom)
+        var(----padding-left)};
     ////
     /// The z-index of the dropdown component
     /// @name z-index
@@ -267,7 +272,8 @@
     /// The padding of the dropdown component item
     /// @name item--padding
     ////
-    ----item--padding: #{var(----item--padding-top) var(----item--padding-right) var(----item--padding-bottom) var(----item--padding-left)};
+    ----item--padding: #{var(----item--padding-top) var(----item--padding-right)
+        var(----item--padding-bottom) var(----item--padding-left)};
     ////
     /// The background of the dropdown component header
     /// @name header--background
@@ -302,7 +308,8 @@
     /// The padding of the dropdown component header
     /// @name header--padding
     ////
-    ----header--padding: #{var(----header--padding-top) var(----header--padding-right) var(----header--padding-bottom) var(----header--padding-left)};
+    ----header--padding: #{var(----header--padding-top) var(----header--padding-right)
+        var(----header--padding-bottom) var(----header--padding-left)};
     ////
     /// The padding top of the dropdown component body
     /// @name body--padding-top
@@ -331,7 +338,8 @@
     /// The padding of the dropdown component body
     /// @name body--padding
     ////
-    ----body--padding: #{var(----body--padding-top) var(----body--padding-right) var(----body--padding-bottom) var(----body--padding-left)};
+    ----body--padding: #{var(----body--padding-top) var(----body--padding-right)
+        var(----body--padding-bottom) var(----body--padding-left)};
     ////
     /// The background of the dropdown component footer
     /// @name footer--background
@@ -366,5 +374,6 @@
     /// The padding of the dropdown component footer
     /// @name footer--padding
     ////
-    ----footer--padding: #{var(----footer--padding-top) var(----footer--padding-right) var(----footer--padding-bottom) var(----footer--padding-left)};
+    ----footer--padding: #{var(----footer--padding-top) var(----footer--padding-right)
+        var(----footer--padding-bottom) var(----footer--padding-left)};
 }

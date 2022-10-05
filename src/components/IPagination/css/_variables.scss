@@ -49,7 +49,8 @@
     /// The border color of the pagination component item
     /// @name border-color
     ////
-    ----border-color: #{var(----border-top-color) var(----border-right-color) var(----border-bottom-color) var(----border-left-color)};
+    ----border-color: #{var(----border-top-color) var(----border-right-color)
+        var(----border-bottom-color) var(----border-left-color)};
     ////
     /// The border color of the pagination component item when active
     /// @name border-color--active
@@ -85,7 +86,8 @@
     /// The border width of the pagination component
     /// @name border-width
     ////
-    ----border-width: #{var(----border-top-width) var(----border-right-width) var(----border-bottom-width) var(----border-left-width)};
+    ----border-width: #{var(----border-top-width) var(----border-right-width)
+        var(----border-bottom-width) var(----border-left-width)};
     ////
     /// The border top left radius of the pagination component
     /// @name border-top-left-radius
@@ -114,7 +116,8 @@
     /// The border radius of the pagination component
     /// @name border-radius
     ////
-    ----border-radius: #{var(----border-top-left-radius) var(----border-top-right-radius) var(----border-bottom-right-radius) var(----border-bottom-left-radius)};
+    ----border-radius: #{var(----border-top-left-radius) var(----border-top-right-radius)
+        var(----border-bottom-right-radius) var(----border-bottom-left-radius)};
     ////
     /// The box shadow horizontal offset of the pagination component
     /// @name box-shadow-offset-x
@@ -144,7 +147,8 @@
     /// The box shadow of the pagination component
     /// @name box-shadow
     ////
-    ----box-shadow: #{var(----box-shadow-offset-x) var(----box-shadow-offset-y) var(----box-shadow-blur-radius) var(----box-shadow-spread-radius) var(----box-shadow-color)};
+    ----box-shadow: #{var(----box-shadow-offset-x) var(----box-shadow-offset-y)
+        var(----box-shadow-blur-radius) var(----box-shadow-spread-radius) var(----box-shadow-color)};
     ////
     /// The border color of the pagination component item when active
     /// @name color
@@ -189,7 +193,8 @@
     /// The margin of the pagination component
     /// @name margin
     ////
-    ----margin: #{var(----margin-top) var(----margin-right) var(----margin-bottom) var(----margin-left)};
+    ----margin: #{var(----margin-top) var(----margin-right) var(----margin-bottom)
+        var(----margin-left)};
     ////
     /// The minimum width of the pagination component items
     /// @name min-width
@@ -227,5 +232,6 @@
     /// The padding of the pagination component
     /// @name padding
     ////
-    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom) var(----padding-left)};
+    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom)
+        var(----padding-left)};
 }

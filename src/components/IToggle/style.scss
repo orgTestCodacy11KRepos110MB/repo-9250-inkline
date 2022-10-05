@@ -75,7 +75,7 @@
         font-size: var(----label--font-size);
 
         &::before {
-            content: "";
+            content: '';
             position: relative;
             display: inline-block;
             cursor: pointer;
@@ -93,7 +93,7 @@
         }
 
         &::after {
-            content: "";
+            content: '';
             position: absolute;
             display: block;
             top: 50%;

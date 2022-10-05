@@ -37,7 +37,8 @@
     /// The padding of the nav component
     /// @name padding
     ////
-    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom) var(----padding-left)};
+    ----padding: #{var(----padding-top) var(----padding-right) var(----padding-bottom)
+        var(----padding-left)};
     ////
     /// @name color
     /// @group light

@@ -90,7 +90,6 @@
             }
 
             @include breakpoint-up($breakpoint-key) {
-
                 // Column width
                 //
                 @if $breakpoint-key != '_' {

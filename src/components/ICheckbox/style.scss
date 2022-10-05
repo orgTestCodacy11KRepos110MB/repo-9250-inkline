@@ -40,7 +40,7 @@
         outline: 0;
 
         &:checked ~ .checkbox-label,
-        &[type="checkbox"]:indeterminate ~ .checkbox-label {
+        &[type='checkbox']:indeterminate ~ .checkbox-label {
             &::before {
                 ----border-color: var(----border-color--checked);
                 ----background: var(----background--checked);
@@ -104,7 +104,7 @@
         }
 
         &::before {
-            content: "";
+            content: '';
             user-select: none;
             border-width: var(----border-width);
             border-style: var(----border-style);
