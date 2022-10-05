@@ -1,0 +1,5 @@
+ignores:
+    - 'lib'
+    - 'dist'
+    - 'node_modules'
+fix: true
